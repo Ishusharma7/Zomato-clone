@@ -1,0 +1,33 @@
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 5vh;
+    margin-top: 5vh;
+}
+.photo{
+    border: 1px solid #ccc; 
+    padding-bottom: 3vh;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.photo:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+p{
+    font-size: 16px;
+    font-family: Okra, Helvetica, sans-serif;
+    opacity: 0.5;
+    padding-left: 2vh;
+    word-wrap: break-word;
+}
+h3{
+    font-size: 20px;
+    font-family: Okra, Helvetica, sans-serif;
+    opacity: 0.6;
+    padding-left: 2vh;
+}
+.photo img{
+    width: 45vh;
+    height: 20vh;
+}
