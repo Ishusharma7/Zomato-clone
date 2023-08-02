@@ -23,8 +23,9 @@
     color: white;
     font-weight: 20;
     display: flex;
+    justify-content: right;
     gap: 10vh;
-    position: absolute;
+    z-index: 5;
 }
 h4{
     font-size:36px ;
@@ -34,6 +35,8 @@ h4{
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center center;
+    z-index: 1;
+    margin-top: -5vh;
 }
 .text{
     display: flex;
@@ -42,6 +45,6 @@ h4{
     background-color: white;
     border-radius: 10px;
 }
-h5{
-    font-size: 18px;
+body{
+    overflow-x: hidden;
 }

@@ -1,4 +1,7 @@
 import React from "react";
+import { Online } from "./cards/Online";
+import { Collection } from "./Collections/Collection";
+import { Footer } from "./Footer";
 import { Header } from "./Header";
 import './App.css'
 import { TextField } from "@mui/material";
@@ -34,6 +37,9 @@ const Zomato =() =>{
         />
         </div>
             </div>
+            <Online />
+            <Collection />
+            <Footer />
     </>
     )
 }
