@@ -8,13 +8,14 @@
     gap: 2vh;
     margin-top: 5vh;
 }
-h2{
+.photos h2{
     color: white ;
     font-size: 20px;
     font-family: Okra, Helvetica, sans-serif;
     position: relative;
-    bottom: 3vh;
+    bottom: 3.5vh;
     left: 1vh;
+    white-space: nowrap;
 }
 .photos img{
     width: 35vh;
@@ -28,10 +29,10 @@ h2{
     flex-direction: column;
     width: 80%;
 }
-h5{
+.heading h5{
     font-size:36px ;
     font-weight: 520;
 }
-p{
+.heading p{
     font-size: 18px;
 }

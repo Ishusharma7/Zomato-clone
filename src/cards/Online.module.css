@@ -14,14 +14,14 @@
     transform: scale(1.1);
     cursor: pointer;
 }
-p{
+.photo p{
     font-size: 16px;
     font-family: Okra, Helvetica, sans-serif;
     opacity: 0.5;
     padding-left: 2vh;
     word-wrap: break-word;
 }
-h3{
+.photo h3{
     font-size: 20px;
     font-family: Okra, Helvetica, sans-serif;
     opacity: 0.6;
