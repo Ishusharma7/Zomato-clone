@@ -22,14 +22,14 @@ const Zomato =() =>{
             <br/>
             <div className={Apcss.text}>
          <TextField
-         className="address"
+         className={Apcss.address}
           placeholder="ADDRESS"
           variant="outlined"
           type="text"
           required
         />
         <TextField
-            className="search"
+            className={Apcss.search}
           placeholder="Search for restaurant,cuisine or a dish"
           variant="outlined"
           type="text"

@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background-color: rgb(226, 55, 68);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    margin-bottom: -20px;
+}
+.image img{
+    width: 10vh;
+}
+.image{
+    display: flex;
+    color: white;
+    font-size: 20px;
+}
+.text{
+    display: flex;
+    gap: 15px;
+    color: white;
+    position: relative;
+    right: 20vh;
+}
+.text h6{
+    font-size: 18px;
+    font-weight: 500;
+}

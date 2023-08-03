@@ -9,18 +9,18 @@ export const Online = () => {
          <div className={onl.cards}>
          <div  className={onl.photo}>
         <Card src ={c} />
-        <h3>Order Online</h3>
-          <p>Stay home and order at your doorstep</p>
+       <div className={onl.bot}> <h3>Order Online</h3>
+          <p>Stay home and order at your doorstep</p> </div>
         </div>
           <div  className={onl.photo}>
           <Card src={b} />
-          <h3>Dining</h3>
-          <p>View city's favorite dining venues</p>
+          <div className={onl.bot}><h3>Dining</h3>
+          <p>View city's favorite dining venues</p></div>
           </div>
           <div  className={onl.photo}>
           <Card src ={a} />
-          <h3>Nightlife and Clubs</h3>
-          <p>Explore the city's top nightlife outlets</p>
+          <div className={onl.bot}><h3>Nightlife and Clubs</h3>
+          <p>Explore the city's top nightlife outlets</p></div>
           </div>
         </div> 
     )

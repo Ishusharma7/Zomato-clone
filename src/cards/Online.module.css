@@ -5,10 +5,12 @@
     margin-top: 5vh;
 }
 .photo{
-    border: 1px solid #ccc; 
-    padding-bottom: 3vh;
-    border-radius: 10px;
+   padding-bottom: 3vh;
     transition: all 0.3s ease;
+    border-radius: 10px;
+}
+.photo img{
+    border-radius: 10px 10px 0px 0px;
 }
 .photo:hover{
     transform: scale(1.1);
@@ -25,9 +27,18 @@
     font-size: 20px;
     font-family: Okra, Helvetica, sans-serif;
     opacity: 0.6;
+    padding-top: 1vh;
     padding-left: 2vh;
 }
 .photo img{
-    width: 45vh;
+    width: 40vh;
     height: 20vh;
+}
+.bot{
+    border: 1px solid grey;
+    background-color: white;
+    position: relative;
+    bottom: 5vh;
+    padding-bottom: 2vh;
+    width: 100%;    
 }

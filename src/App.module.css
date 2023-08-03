@@ -36,7 +36,7 @@ h4{
     background-size: 100%;
     background-position: center center;
     z-index: 1;
-    margin-top: -5vh;
+    margin-top: -10vh;
 }
 .text{
     display: flex;

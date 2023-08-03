@@ -8,8 +8,11 @@ import d from './Images/d.avif'
 import e from './Images/e.webp'
 import f from './Images/f.webp'
 import g from './Images/g.webp'
+import { Investheader } from "./Investheader";
+import { Offering } from "./Offers/Offering";
 export const Investor = () => {
-    return(
+    return(<>
+        <Investheader />
         <div className={css.investor}>
         <div className={css.mleft}>
     <div className={css.left}>
@@ -45,5 +48,7 @@ export const Investor = () => {
         </div>
     </div>
     </div>
+    <Offering />
+    </>
     )
 }
