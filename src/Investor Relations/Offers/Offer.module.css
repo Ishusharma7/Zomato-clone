@@ -54,7 +54,7 @@
 }
 .btext h4{
     font-size: 16px;
-    color: rgb(118, 124, 143);;
+    color: rgb(118, 124, 143);
     margin-left: 3vh;
 }
 .bbtext{
@@ -64,14 +64,84 @@
 }
 .back h6{
     font-size: 40px;
-    display: flex;
-    margin-left: 12em;
     padding-top: 2em;
     padding-bottom: 1em;
+    display: flex;
+    justify-content: center;
 }
 .cont{
     background-color: white;
     border-radius: 0px 0px 50px 50px;
     height: 500vh;
     padding-top: 3vh;
+}
+.beyond{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3em;
+}
+.beyond p{
+    color: rgb(118, 124, 143);
+    width: 110vh;
+    font-size: 20px;
+}
+.image img {
+    width: 30vh;
+    padding: 3vh 0vh 0vh 3vh;
+    margin-bottom: 3vh;
+}
+.image{
+    background-color: white;
+    width: 110vh;
+    border-radius: 50px;
+}
+.image p{
+    color: rgb(118, 124, 143);
+    width: 75vh;
+    font-size: 18px;
+    margin: 0vh 3vh;
+}
+.inner{
+    display: flex;
+}
+.inner img{
+    margin-bottom: -7vh;
+    position: relative;
+    bottom: 8vh;
+}
+.full{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.botom{
+    display: flex;
+    background-color: white;
+    border-radius: 50px;
+    padding: 2vh;
+}
+.botomimage p{
+    width: 20vh;
+    color: rgb(118, 124, 143);
+    font-size: 18px;
+}
+.botomimage h7{
+    font-size: 20px;
+    font-weight: 1000;
+    width: 15vh;
+}
+.botomimage{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.botom img{
+    width: 10vh;
+}
+.last{
+    display: flex;
+    gap:100px;
+    justify-content: center;
+    margin-top: 5vh;
 }
