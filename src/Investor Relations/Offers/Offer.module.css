@@ -6,32 +6,37 @@
     display: flex;
     justify-content: center;
     gap: 50px;
-    margin-bottom: 15vh;
+}
+.back{
+    background-color: rgb(248, 249, 252);
+    padding-bottom: 15vh;
 }
 .offer img{
     width: 5vh;
     height: 5vh;
     position: relative;
     top: 3.5vh;
+    left: 1vh;
 }
 .card{
     border: 2px solid rgb(255, 237, 239);
     width: 35vh;
-    padding-bottom: 1em;
+    height: 40vh;
     border-radius: 50px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    align-items: center;
 }
 .text p{
     font-size: 18px;
+    margin-left: 2vh;
+    color: rgb(118, 124, 143);
 }
 .text h5{
     color: rgb(175, 180, 192);
     margin-top: 2em;
     border-bottom: 2px solid rgb(242, 244, 247);
-    padding-bottom: 1.5em;
+    padding-bottom: 0.5em;
+    margin-left: 1vh;
 }
 .delivery{
     background-color: rgb(255, 237, 239);
@@ -45,51 +50,28 @@
 }
 .btext h2{
     font-size: 24px;
+    margin-left: 3vh;
 }
 .btext h4{
     font-size: 16px;
     color: rgb(118, 124, 143);;
+    margin-left: 3vh;
 }
 .bbtext{
     display: flex;
     flex-flow: column;
     gap: 20px;
 }
-.deliveryb{
-    background-color: rgb(254, 244, 216);
-    width: 100%;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    border-radius: 47px 47px 0px 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-}
-h6{
+.back h6{
     font-size: 40px;
     display: flex;
     margin-left: 12em;
     padding-top: 2em;
     padding-bottom: 1em;
 }
-.delivery h1{
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 24px;
-    text-align: right;
-    color: rgb(125, 27, 35);
-    width: 50%;
-    margin-right: 1em;
-    display: flex;    
-}
-.deliveryb h1{
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 24px;
-    text-align: right;
-    letter-spacing: 0.01em;
-    color:rgb(104, 68, 15);
-    width: 50%;
-    margin-right: 1em;
-    display: flex; 
+.cont{
+    background-color: white;
+    border-radius: 0px 0px 50px 50px;
+    height: 500vh;
+    padding-top: 3vh;
 }

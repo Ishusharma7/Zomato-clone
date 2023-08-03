@@ -1,54 +1,53 @@
 import React from "react";
-import css from './Investor.module.css';
+import css from "./Investor.module.css";
+import a from "./Images/a.webp";
+import b from "./Images/b.webp";
+import c from "./Images/c.webp";
+import d from "./Images/d.avif";
+import e from "./Images/e.webp";
+import f from "./Images/f.webp";
+import g from "./Images/g.webp";
 import { Card } from "../Card";
-import a from './Images/a.webp';
-import b from './Images/b.webp'
-import c from './Images/c.webp'
-import d from './Images/d.avif'
-import e from './Images/e.webp'
-import f from './Images/f.webp'
-import g from './Images/g.webp'
 import { Investheader } from "./Investheader";
 import { Offering } from "./Offers/Offering";
 export const Investor = () => {
-    return(<>
-        <Investheader />
-        <div className={css.investor}>
+  const text = [
+    { text: "Better food for more People", src: d },
+    { text: "Instant commerce indistinguishable from Magic", src: e },
+    { text: "Make India malnutrition free", src: f },
+  ];
+  const btext = [
+    { usrc: a, para: "Shareholder's Letter", bsrc: g },
+    { usrc: b, para: "Earnings Call Replay", bsrc: g },
+    { usrc: c, para: "Earnings Call Transcript", bsrc: g },
+  ];
+  return (
+    <>
+      <Investheader />
+      <div className={css.investor}>
         <div className={css.mleft}>
-    <div className={css.left}>
-        <h1>Better food for more people</h1>
-        <br/>
-        <Card src ={d} />
-    </div>
-    <div className={css.left}>
-        <h1>Instant commerce indistinguishable from magic</h1>
-        <br/>
-        <Card src ={e} />
-    </div>
-    <div className={css.left}>
-        <h1>Make India malnutrition free</h1>
-        <br/>
-        <Card src = {f} />
-    </div>
-    </div>
-
-    <div className={css.right}>
-        <h3>Q4FY23 results</h3>
-        <div className={css.image}>
-        <Card src ={a} />
-        <p>Shareholder'd Letter</p> <div className={css.arrow}><Card src = {g} /></div>
+          {text.map((item, index) => (
+            <div className={css.left} key={index}>
+              <h1>{item.text}</h1>
+              <br />
+              <Card src={item.src} />
+            </div>
+          ))}
         </div>
-        <div className={css.image}>
-        <Card src ={b} />
-        <p>Earnings Call Replay</p> <div className={css.arrow}><Card src ={g} /></div>
+        <div className={css.right}>
+          <h3>Q4FY23 results</h3>
+          {btext.map((item, index) => (
+            <div className={css.image} key={index}>
+              <Card src={item.usrc} />
+              <p>{item.para}</p>{" "}
+              <div className={css.arrow}>
+                <Card src={item.bsrc} />
+              </div>
+            </div>
+          ))}
         </div>
-        <div className={css.image}>
-        <Card src ={c} />
-        <p>Earnings Call Transcript</p> <div className={css.arrow}><Card src ={g} /></div>
-        </div>
-    </div>
-    </div>
-    <Offering />
+      </div>
+      <Offering />
     </>
-    )
-}
+  );
+};

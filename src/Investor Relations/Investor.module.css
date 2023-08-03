@@ -55,9 +55,6 @@ h1{
 }
 h3{
     color: black;
-    position: relative;
-    left: -3vh;
-    top: -1vh;
     font-size: 30px;
 }
 .image p{
@@ -69,5 +66,5 @@ h3{
     background-color: transparent;
     padding-left: 3vh;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }  
