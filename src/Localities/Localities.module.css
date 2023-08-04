@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.second {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    width: 120vh;
+    margin-left: 35vh;
+}
+.third{
+    border: 5px solid rgb(255, 251, 247);
+    box-shadow:  0px 0px 1px 0px;
+    width: 25vh;
+    text-align: center;
+}
+.first h1{
+    margin: 5vh;
+    padding-left: 30vh;
+}
+.third h2{
+    font-weight: 200;
+}
+.imge img{
+    width: 40vh;
+}
+.down{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    background-color: rgb(248, 249, 252);
+}
+.app h3{
+    font-size: 30px;
+    margin: 4vh;
+}
+.app p{
+    font-size: 20px;
+    width: 35vh;
+    margin: 1vh;
+}
+label{
+    font-size: 20px;
+    padding: 2vh;
+}
+.app input[type=text]{
+    margin: 3vh;
+    padding: 1vh;
+    border-radius: 5px;
+}
+.app button{
+    border: 0;
+    background-color:rgb(239, 79, 95) ;
+    padding: .7vh;
+    border-radius: 10px;
+}
+input[type = radio]{
+    margin-top: 2vh;
+}
