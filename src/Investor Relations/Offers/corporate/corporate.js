@@ -1,4 +1,5 @@
 import React from "react";
+import { Blogs } from "../blogs/blogs";
 import css from './corporate.module.css'
 export const Corporate = () =>{
     const data =[
@@ -20,6 +21,22 @@ export const Corporate = () =>{
         ))}
         <div className={css.anounce}>
         <button>See all announcments</button></div>
+    </div>
+    <Blogs />
+    <div className={css.reach}>
+            <div className={css.out}>
+            <h7>Subscribe to our email alerts</h7>
+            <p>Get regular updates through email</p>
+            <input 
+                placeholder="EMAIL"
+            />
+            <button>Subscribe</button>
+            </div>
+            <div className={css.out}>
+            <h7>Have questions?</h7>
+            <p>Reach out to us by emailing at  shareholders@zomato.com, and we'll get back to you.</p>  
+            <button>Contact Us</button> 
+            </div>
     </div>
             </div>
     )

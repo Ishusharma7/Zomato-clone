@@ -1,5 +1,6 @@
 import React from "react";
 import css from "./Investor.module.css";
+import {Footer} from '../Footer'
 import a from "./Images/a.webp";
 import b from "./Images/b.webp";
 import c from "./Images/c.webp";
@@ -48,6 +49,7 @@ export const Investor = () => {
         </div>
       </div>
       <Offering />
+      <Footer />
     </>
   );
 };

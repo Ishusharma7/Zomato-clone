@@ -1,0 +1,32 @@
+.head img{
+    height: 20vh;
+    border-radius: 10px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.head h3{
+     font-size: 16px;
+    font-weight: 200;
+}
+.head{
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.head p{
+    font-size: 13px;
+}
+.head h2{
+    font-size: 20px;
+    font-weight: 540;
+}
+h1{
+    text-align: center;
+    padding: 0.5em;
+    font-size:40px;
+    font-weight: 700;
+}

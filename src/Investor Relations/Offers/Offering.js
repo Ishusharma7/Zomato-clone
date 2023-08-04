@@ -69,7 +69,7 @@ export const Offering = () => {
                     <Card src = {l} />
                     </div>
             </div>
-            </div>
+            </div><br/><br/>
             <div className={css.last}>
             {qtext.map ((item,index) =>(<>
             <div className={css.botom} key ={index}>

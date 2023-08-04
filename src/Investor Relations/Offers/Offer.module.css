@@ -9,10 +9,8 @@
 }
 .back{
     background-color: rgb(248, 249, 252);
-    padding-bottom: 15vh;
 }
 .offer img{
-    width: 5vh;
     height: 5vh;
     position: relative;
     top: 3.5vh;
@@ -27,7 +25,7 @@
     flex-direction: column;
 }
 .text p{
-    font-size: 18px;
+    font-size: 1.2em;
     margin-left: 2vh;
     color: rgb(118, 124, 143);
 }
@@ -35,25 +33,21 @@
     color: rgb(175, 180, 192);
     margin-top: 2em;
     border-bottom: 2px solid rgb(242, 244, 247);
-    padding-bottom: 0.5em;
+    padding: 0.5em;
     margin-left: 1vh;
 }
 .delivery{
     background-color: rgb(255, 237, 239);
-    width: 100%;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding: 2vh;
     border-radius: 47px 47px 0px 0px;
     display: flex;
     justify-content: space-between;
-    align-items: end;
+    align-items: flex-end;
 }
 .btext h2{
-    font-size: 24px;
     margin-left: 3vh;
 }
 .btext h4{
-    font-size: 16px;
     color: rgb(118, 124, 143);
     margin-left: 3vh;
 }
@@ -61,9 +55,10 @@
     display: flex;
     flex-flow: column;
     gap: 20px;
+    margin: 2vh;
 }
 .back h6{
-    font-size: 40px;
+    font-size: 3em;
     padding-top: 2em;
     padding-bottom: 1em;
     display: flex;
@@ -79,12 +74,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 3em;
+    margin: 8em;
 }
 .beyond p{
     color: rgb(118, 124, 143);
     width: 110vh;
-    font-size: 20px;
+    font-size: 1.5em;
 }
 .image img {
     width: 30vh;
@@ -99,7 +94,7 @@
 .image p{
     color: rgb(118, 124, 143);
     width: 75vh;
-    font-size: 18px;
+    font-size: 1.2em;
     margin: 0vh 3vh;
 }
 .inner{
@@ -124,10 +119,10 @@
 .botomimage p{
     width: 20vh;
     color: rgb(118, 124, 143);
-    font-size: 18px;
+    font-size: 1.1em;
 }
 .botomimage h7{
-    font-size: 20px;
+    font-size: 1.4em;
     font-weight: 1000;
     width: 15vh;
 }

@@ -11,14 +11,13 @@
     gap: 80px;
     justify-content: center;
 }
-h6{
-    font-size: 2vh;
+.about h6{
+    font-size: 3vh;
 }
 .zmato{
-    position: relative;
-    left: 40vh;
-    top: 3vh;
-    margin-bottom: 7vh;
+    display: flex;
+    justify-content: center;
+    padding: 5vh;
 }
 .foot{
     background-color: lightgray;
