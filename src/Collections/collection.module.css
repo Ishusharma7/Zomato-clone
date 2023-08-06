@@ -4,6 +4,7 @@
 }
 .card{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 2vh;
     margin-top: 5vh;
@@ -16,23 +17,29 @@
     bottom: 3.5vh;
     left: 1vh;
     white-space: nowrap;
+    overflow: hidden;            
+    text-overflow: ellipsis;
+    width: 30vh;
 }
 .photos img{
     width: 35vh;
     height: 45vh;
     border-radius: 10px;
+    flex: 1 0 270px;
 }
 .heading{
-    position: relative;
-    left: 30vh;
     margin-top: 5vh;
     display: flex;
     flex-direction: column;
+    margin-left: 5em;
     width: 80%;
+    text-align: center;
 }
 .heading h5{
     font-size:36px ;
     font-weight: 520;
+    white-space: nowrap;                     
+    text-overflow: ellipsis;
 }
 .heading p{
     font-size: 18px;

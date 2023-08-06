@@ -16,7 +16,8 @@ export const Local =() => {
     ];
     return(
         <>
-    <div className={css.first}>
+        <div className={css.fl}>
+            <div className={css.first}>
             <h1>Popular localities in and around Delhi NCR</h1>
             </div>
     <div className={css.second}>
@@ -26,6 +27,7 @@ export const Local =() => {
         <p>{item.no} Places</p>
         </div>
             ))}
+        </div>
         </div>
         
 

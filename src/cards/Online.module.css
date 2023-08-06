@@ -1,5 +1,6 @@
 .cards{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 5vh;
     margin-top: 5vh;
@@ -11,6 +12,7 @@
 }
 .photo img{
     border-radius: 10px 10px 0px 0px;
+    flex: 1 0 270px;
 }
 .photo:hover{
     transform: scale(1.1);
@@ -24,7 +26,7 @@
     word-wrap: break-word;
 }
 .photo h3{
-    font-size: 20px;
+    font-size: 1em;
     font-family: Okra, Helvetica, sans-serif;
     opacity: 0.6;
     padding-top: 1vh;
