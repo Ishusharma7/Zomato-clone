@@ -1,5 +1,5 @@
 import React from "react";
-import { Card } from "../Card";
+import { Card } from "../Components/Card";
 import d from './Images/d.avif'
 import css from './head.module.css'
 export const Investheader =() => {

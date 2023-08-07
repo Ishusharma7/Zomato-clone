@@ -1,6 +1,6 @@
 import React from "react";
 import onl from './Online.module.css'
-import { Card } from "../Card";
+import { Card } from "../Components/Card";
 import a from './Images/a.avif';
 import b from './Images/b.avif';
 import c from './Images/c.avif';

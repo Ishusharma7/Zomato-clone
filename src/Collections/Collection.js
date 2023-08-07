@@ -4,7 +4,7 @@ import a from './images/a.avif';
 import b from './images/b.avif'
 import c from './images/c.avif'
 import d from './images/d.avif'
-import { Card } from "../Card";
+import { Card } from "../Components/Card";
 import { Local } from "../Localities/Localities";
 
 export const Collection = () =>{

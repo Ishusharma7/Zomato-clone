@@ -1,5 +1,5 @@
 import React from "react";
-import {Card} from '../Card'
+import {Card} from '../Components/Card'
 import e from '../Collections/images/e.avif'
 import css from './Localities.module.css'
 export const Local =() => {

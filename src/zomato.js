@@ -1,8 +1,8 @@
 import React from "react";
 import { Online } from "./cards/Online";
 import { Collection } from "./Collections/Collection";
-import { Footer } from "./Footer";
-import { Header } from "./Header";
+import { Footer } from "./Footer/Footer";
+import { Header } from "./Zomato header/Header";
 import Apcss from'./App.module.css';
 import {Investor} from "./Investor Relations/Investor"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";

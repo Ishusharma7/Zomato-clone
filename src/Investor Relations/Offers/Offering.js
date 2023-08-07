@@ -1,5 +1,5 @@
 import React from "react";
-import { Card } from "../../Card";
+import { Card } from "../../Components/Card";
 import h from '../Images/h.avif'
 import l from '../Images/l.avif'
 import css from './Offer.module.css'

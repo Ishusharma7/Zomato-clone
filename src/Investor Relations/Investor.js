@@ -1,6 +1,6 @@
 import React from "react";
 import css from "./Investor.module.css";
-import {Footer} from '../Footer'
+import {Footer} from '../Footer/Footer'
 import a from "./Images/a.webp";
 import b from "./Images/b.webp";
 import c from "./Images/c.webp";
@@ -8,7 +8,7 @@ import d from "./Images/d.avif";
 import e from "./Images/e.webp";
 import f from "./Images/f.webp";
 import g from "./Images/g.webp";
-import { Card } from "../Card";
+import { Card } from "../Components/Card";
 import { Investheader } from "./Investheader";
 import { Offering } from "./Offers/Offering";
 export const Investor = () => {
