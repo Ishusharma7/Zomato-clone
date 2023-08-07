@@ -4,6 +4,7 @@
     justify-content: center;
     gap: 5vh;
     margin-top: 5vh;
+    min-width: 170vh;
 }
 .photo{
    padding-bottom: 3vh;

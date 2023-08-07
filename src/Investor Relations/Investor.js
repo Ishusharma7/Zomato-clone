@@ -24,7 +24,7 @@ export const Investor = () => {
   ];
   return (
     <>
-      <Investheader />
+       <Investheader />
       <div className={css.investor}>
         <div className={css.mleft}>
           {text.map((item, index) => (

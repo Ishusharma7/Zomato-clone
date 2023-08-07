@@ -28,6 +28,7 @@
     justify-content: center;
     margin-top: 5vh;
     background-color: rgb(248, 249, 252);
+    min-width: 175vh;
 }
 .app h3{
     font-size: 30px;
@@ -61,6 +62,7 @@ input[type = radio]{
     flex-wrap: wrap;
     gap: 50px;
     align-items: center;
+    min-width: 180vh;
 }
 .app{
     display: flex;

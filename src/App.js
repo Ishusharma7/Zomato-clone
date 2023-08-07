@@ -1,11 +1,9 @@
 import React from "react";
-// import Zomato from "./zomato";
-import { Investor } from "./Investor Relations/Investor";
+import Zomato from "./zomato";
 function App() {
   return (
     <div className="App">
-      {/* <Zomato /> */}
-      <Investor />
+      <Zomato />
     </div>
   );
 }

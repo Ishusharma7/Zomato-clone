@@ -47,6 +47,7 @@
 .btext h4{
     color: rgb(118, 124, 143);
     margin-left: 3vh;
+    font-size: 15px;
 }
 .bbtext{
     display: flex;
@@ -144,7 +145,7 @@
     }
     .offer{
         width: 150vh;
-        margin-bottom: 10vh;
+        margin-bottom: 35vh;
     }
     .offer h1{
         font-size: 25px;
