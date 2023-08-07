@@ -4,16 +4,11 @@ import { Collection } from "./Collections/Collection";
 import { Footer } from "./Footer/Footer";
 import { Header } from "./Zomato header/Header";
 import Apcss from'./App.module.css';
-import {Investor} from "./Investor Relations/Investor"
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 const Zomato =() =>{
     return(<>
-    <Router>
            <Header />
-           <Routes>
-            <Route exact path= "/Investor" element={<Investor />} />
-           </Routes>
-           </Router>
+           
         <div className={Apcss.user}>
         <img
             src= 'https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png'
