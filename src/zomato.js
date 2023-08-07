@@ -4,10 +4,16 @@ import { Collection } from "./Collections/Collection";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
 import Apcss from'./App.module.css';
-import { TextField } from "@mui/material";
+import {Investor} from "./Investor Relations/Investor"
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 const Zomato =() =>{
     return(<>
+    <Router>
            <Header />
+           <Routes>
+            <Route exact path= "/Investor" element={<Investor />} />
+           </Routes>
+           </Router>
         <div className={Apcss.user}>
         <img
             src= 'https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png'
@@ -21,16 +27,16 @@ const Zomato =() =>{
             <h4>Discover the best food & drinks in Delhi NCR</h4>
             <br/>
             <div className={Apcss.text}>
-         <TextField
+         <input
          className={Apcss.address}
           placeholder="ADDRESS"
           variant="outlined"
           type="text"
           required
         />
-        <TextField
+        <input
             className={Apcss.search}
-          placeholder="Search for restaurant,cuisine or a dish"
+          placeholder="|      Search for restaurant,cuisine or a dish"
           variant="outlined"
           type="text"
           required

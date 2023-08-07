@@ -12,6 +12,9 @@
     border: 0;
     border-radius: 10px;
  }
+input{
+    height: 5vh;
+ }
  .address{
     background-color: white;
     border: 0;
@@ -20,12 +23,14 @@
 .head{
     padding-top: 1em;
     font-family: Okra, Helvetica, sans-serif;
-    color: white;
     font-weight: 20;
     display: flex;
     justify-content: right;
-    gap: 10vh;
+    gap: 2em;
     z-index: 5;
+}
+.head h6{
+    color: white;
 }
 .head h6{
     font-size: large;
@@ -38,7 +43,8 @@ h4{
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
-    min-height: 420px;
+    min-width: 390px;
+    min-height: 270px;
     background-position: center center;
     z-index: 1;
     margin-top: -10vh;
@@ -50,3 +56,28 @@ h4{
     background-color: white;
     border-radius: 10px;
 }
+@media (max-width: 400px) {
+    .head h6{
+        font-size: 10px;
+    }
+    .user h4{
+        font-size: 15px;
+    }
+    .user img{
+        width: 10vh;
+        height: 3vh;
+        margin-top: 10vh;
+    }
+    .user {
+        background-image: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+        background-repeat: no-repeat;
+        width: 50vh;
+        height: 10vh;
+}
+.search{
+    width: 30vh;
+}
+.address{
+    width: 15vh;
+}
+ }

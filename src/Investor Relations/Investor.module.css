@@ -13,6 +13,8 @@
     gap: 40vh;
     background-color:rgb(226, 55, 68);
     color: white;
+    flex-wrap: wrap;
+    min-width: 153vh;
 }
 .left{
    border-bottom: 1px solid rgb(170, 155, 157);
@@ -64,3 +66,13 @@
     padding-left: 3vh;
     display: flex;
 }  
+@media (max-width: 400px) {
+    .mleft h1{
+        font-size: 40px;
+    }
+    .right{
+        position: relative;
+        left: 30vh;
+        bottom: 20vh;
+}
+ }

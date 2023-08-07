@@ -24,6 +24,7 @@
 .foot{
     background-color: lightgray;
     margin-top: 10vh;
+    min-width: 172vh;
 }
 @media (max-width: 1100px) {
     .about h6{
